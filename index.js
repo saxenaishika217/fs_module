@@ -13,7 +13,7 @@ function createFileSync(fileName, content) {
         fs.writeFileSync(fileName, content, 'utf-8');
         console.log(`File '${fileName}' created successfully (Sync).`);
     } else {
-        console.log(`File '${fileName}' already exists.`);
+        console.log(`File '${fileName}' already exist.`);
     }
 }
 
